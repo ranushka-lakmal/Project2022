@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Welcome</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/" rel="shortcut icon"/>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/animate.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<style>
+
+		.button {
+		  border-radius: 4px;
+		  background-color: #11053d;
+		  border: none;
+		  color: #FFFFFF;
+		  text-align: center;
+		  font-size: 28px;
+		  padding: 20px;
+		  width: 200px;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		}
+
+		.button2 {
+		  border-radius: 4px;
+		  background-color: #ff0000;
+		  border: none;
+		  color: #FFFFFF;
+		  text-align: center;
+		  font-size: 28px;
+		  padding: 20px;
+		  width: 200px;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		}
+		
+		.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+
+		.button2 span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+		
+		.button span:after {
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+		
+		.button2 span:after {
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span {
+		  padding-right: 25px;
+		}
+		
+		.button2:hover span {
+		  padding-right: 25px;
+		}
+
+		.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}
+
+		.button2:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}
+
+		</style>
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	
+	<!--====== Header Section Start ======-->
+	<header class="header-section">
+		
+		<div class="responsive"><i class="fa fa-bars"></i></div>
+		<!-- Navigation -->
+		
+	</header>
+	<!--====== Header Section End ======-->
+
+
+	<!-- ==== Intro Section Start ==== -->
+	<section class="intro-section fix" id="home">
+		<div class="intro-bg bg-cms"></div>
+		<div class="intro-inner">
+			<div class="intro-content">
+				<div id="round"></div>
+				
+	<h2><span class=""></span></h2>
+
+	<form method="get" action="../insert.php">
+		<button class="button"><span>Enter</span></button>
+	</form>
+	
+	<form method="get" action="../logout.php">
+		<button class="button2"><span>Logout</span></button>
+	</form>
+	
+			</div>
+		</div>
+	</section>
+	<!-- ==== Intro Section End ==== -->
+
+
+
+
+
+	<!--====== Javascripts & Jquery ======-->	
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/plugin.js"></script>
+	<script src="js/init-round.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
